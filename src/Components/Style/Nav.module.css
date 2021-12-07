@@ -1,0 +1,13 @@
+.head {
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: space-around;
+}

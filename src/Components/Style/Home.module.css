@@ -1,0 +1,40 @@
+.container {
+
+}
+
+#home{
+    width: 500px;
+}
+
+.sobremi{
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    margin: 1000px;
+}
+
+#misproyectos{
+    height: 1000px;
+    width: 100%;
+}
+
+.contact {
+    display: block;
+    background-color: black;
+    color: white;
+    height: 200px;
+}
+
+.contact h1{
+    text-align: center;
+    margin-top: 1%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.iconsContact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    padding-right: 20px;
+}
