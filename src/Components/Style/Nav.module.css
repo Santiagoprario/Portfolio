@@ -9,5 +9,12 @@
     display: flex;
     flex-direction: row;
     text-decoration: none;
-    justify-content: space-around;
+    justify-content: center;
+    position: fixed;
+    font-size: 26px;
+}
+
+.menu li {
+    padding: 0 10px 0 10px;
+    color: white;
 }

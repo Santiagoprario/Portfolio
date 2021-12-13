@@ -6,18 +6,18 @@ function Nav() {
     return (
         <nav className={style.head}>
         <ul className={style.menu}>
-            <Link to='home'
+           <li><Link to='home'
             smooth={true}
-            >Home</Link>
-            <Link to='sobremi'
+            >Home</Link></li>
+            <li><Link to='sobremi'
             smooth={true}
-            >Sobre Mi</Link>
-            <Link to='misproyectos'
+            >Sobre Mi</Link></li>
+            <li><Link  to='misproyectos'
             smooth={true}
-            >Mis Proyectos</Link>
-            <Link to='contact'
+            >Mis Proyectos</Link></li>
+           <li><Link  to='contact'
             smooth={true}
-            >Contactarme</Link>
+            >Contactarme</Link></li>
         </ul>
         </nav>
     )
