@@ -19,6 +19,14 @@ function Home() {
     
     
     
+    const projects = [
+    {name:'Truco online' , info:'Este proyecto ha sido desarrollado con React + Redux para el Front End. En el back se utilizo Express para el servidor y PostreSQL para la base de datos. Para la interaccion entre los dos usuario se utilizo Socket.IO', tecno: 'React , Redux , Express , Sequelize , PostgreSQL , Socket.IO, JWT , Axios', img: ''},
+    {name:'iWorld!', info:'Se creo una App para ver la informacion de todos los paises del mundo, los cuales fueron bajados previamente a una base de datos en el servidor para despues interactuar y agregarle actividades turisticas', tecno:'React , Redux , Express , Sequelize , PostgreSQL , Axios' , img:''},
+    {name:'Climatronic' , info: 'Este proyecto es una App que muestra el clima en la ciudad que gustes. Tambien podes guardar favoritos.' ,tecno:'React , Redux , Axios, CSS', img: ''},
+    {name:'MR.Economy', info:'Se realizo un proyecto de App para tener un control de egresos e ingresos. Se incorporo autenticacion de usuarios' , tecno:'React , Redux , Express , Sequelize , PostgreSQL , Axios'  , img:''},
+    {name:'Lenovo Challenge' , info: 'Maquetacion en html y css puros de una imagen de la pagina de Lenovo', tecno: 'HTML y CSS' , img:''},
+    ]
+    
     
     
     return (
@@ -46,9 +54,10 @@ function Home() {
              </div>
          </section>
          <section
-         id='misproyectos'> 
+         id='misproyectos'
+         className={style.misproyectos}> 
           <h2 className={style.titleProject}>Mis Proyectos</h2>
-         <Projects />
+         {projects.map(p => <Projects name={p.name} info={p.info} tecno={p.tecno} img={p.img}/>)}
          </section>
          <section
          id='contact'
