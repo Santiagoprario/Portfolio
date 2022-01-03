@@ -70,7 +70,7 @@ function Home() {
          <img  className={style.contactImg} src={contact} alt="/santiagoprario" height='150px' width='150px'  />
 
              <img src={linkedin} alt="/santiagoprario" height='70px' width='70px'  />
-             <img src={mail} alt="santiagoprario@gmail.com" height='70px' width='70px' />
+             <img src={mail} alt="santiagoprario@gmail.com" height='70px' width='70px' /> 
              <img src={whats} alt="+5492236846451" height='70px' width='70px' />
              <img src={git} alt="github.com/santiagoprario" height='70px' width='70px' />
          </div>
